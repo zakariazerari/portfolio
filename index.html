@@ -3,27 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> portfolio</title>
+    <title> soufiane</title>
+
+    <!-- box icons -->
+
+    <!-- custom css-->
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-   
+    <!-- header design -->
     <header class="header">
-        <a href="#" class="logo"> portfolio</a>
+        <a href="#" class="logo">portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
         <nav class="navbar">
-            <a href="#" style="--i:1;" class="active">home</a>
-            <a href="#" style="--i:2;">about</a>
-            <a href="#" style="--i:3;">skills</a>
-            <a href="#" style="--i:4;">portfolio</a>
-            <a href="#" style="--i:5;">contact</a>
+            <a href="#home" style="--i:1;" class="active">home</a>
+            <a href="#about" style="--i:2;">about</a>
+            <a href="#services" style="--i:3;">services</a>
+            <a href="#portfolio" style="--i:4;">portfolio</a>
+            <a href="#contact" style="--i:5;">contact</a>
         </nav>
     </header>
-    <section class="home">
+    <section id="home" class="home">
         <div class="home-content">
             <h3> Hello, It's Me </h3>
-            <h1> Zakaria Zerari</h1>
-            <h3>And I'm a <span class="multiple-text"> Developer</span></h3>
+            <h1> zakaria zerari</h1>
+            <h3> CASABLANCA<span class="multiple-text">CASABLANCA </span></h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, nostrum! Amet, sapiente repellendus? Quasi, quibusdam.</p>
             <div class="social-media">
                 <a href="#" style="--i:7"> <i class='bx bxl-facebook'></i></a>
@@ -34,9 +39,142 @@
             <a href="#" class="btn"> Download CV</a>
         </div>
         <div class="home-img">
-            <img src="./WW.png" alt="">
+            <img src="./WW.png" class="img-home" alt="">
         </div>
     </section>
+    <!-- about section design -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="./WW.png"  alt="">
+        </div>
+        <div class="about-content"> 
+            <h2 class="heading"> about <span>Me</span></h2>
+            <h3>Devlepor</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta libero totam hic aspernatur cupiditate possimus numquam sunt saepe porro corrupti illum voluptas expedita eveniet, quasi voluptatibus, explicabo voluptate ratione officia. Atque maiores officiis voluptatibus quaerat. Animi ullam quos nemo accusamus.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+     </section>
+     <!--services section design-->
+     <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, nulla tempora! Ex ut laborum suscipit iste repellat culpa atque necessitatibus?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        
+            <div class="services-box">
+                <i class='bx bxl-html5' ></i>
+                <h3>Html</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, nulla tempora! Ex ut laborum suscipit iste repellat culpa atque necessitatibus?</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+       
+            <div class="services-box">
+                <i class='bx bxl-css3' ></i>
+                <h3>Css</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, nulla tempora! Ex ut laborum suscipit iste repellat culpa atque necessitatibus?</p>
+                <a href="#" class="btn">Read More</a>
+           
+            </div>
+        </div>
+     </section>
+     <!--portfolio section design--> 
+     <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="./portfolio (6).jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4> Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, labore.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./portfolio (1).jpeg"  alt="">
+                <div class="portfolio-layer">
+                    <h4> Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, labore.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./portfolio (2).jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4> Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, labore.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./portfolio (3).jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4> Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, labore.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./portfolio (4).jpeg"  alt="">
+                <div class="portfolio-layer">
+                    <h4> Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, labore.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="./portfolio (5).jpeg"  alt="">
+                <div class="portfolio-layer">
+                    <h4> Web Development</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, labore.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+
+                </div>
+            </div>
+        </div>
+     </section>
+     <!-- contact section design-->
+      <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+
+        </form>
+      </section>
+      <!-- footer design-->
+       <footer class="footer">
+        <div class="footer-text">
+            <p> Copright &copy; 2023 by codehal | All Rights Reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+        </div>
+        
+       </footer>
+
+    <!-- custom js-->
     
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="zack.js"></script>
